@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<testsuites>
+  <testsuite name="PhantomJS 2.1.1 (Windows 8 0.0.0)" package="" timestamp="2017-03-08T08:02:55" id="0" hostname="fmNB2113" tests="4" errors="1" failures="4" time="0.025">
+    <properties>
+      <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"/>
+    </properties>
+    <testcase name="fills table with info system data" time="0.017" classname="PhantomJS 2.1.1 (Windows 8 0.0.0).Approver">
+      <failure type="">TypeError: Attempted to assign to readonly property. in C:/git/RIHA.git/RIA_RIHA_Approver/src/main/resources/static/js/Approver.js (line 86)
+_parseData@C:/git/RIHA.git/RIA_RIHA_Approver/src/main/resources/static/js/Approver.js:86:32
+C:/git/RIHA.git/RIA_RIHA_Approver/src/main/resources/static/js/Approver.js:73:22
+forEach@[native code]
+_createTableRows@C:/git/RIHA.git/RIA_RIHA_Approver/src/main/resources/static/js/Approver.js:72:17
+C:/git/RIHA.git/RIA_RIHA_Approver/src/test/js/Approver.test.js:50:30
+executeFiltered@C:/git/RIHA.git/RIA_RIHA_Approver/node_modules/karma-jasmine/lib/boot.js:126:18
+C:/git/RIHA.git/RIA_RIHA_Approver/node_modules/karma-jasmine/lib/adapter.js:171:31
+loaded@http://localhost:8945/karma.js:182:17
+global code@http://localhost:8945/context.html:67:28
+</failure>
+    </testcase>
+    <testcase name="to approved infosystem" time="0.004" classname="PhantomJS 2.1.1 (Windows 8 0.0.0).Approver adds approval">
+      <failure type="">TypeError: undefined is not an object (evaluating &apos;indexedRows[approval.uri].meta&apos;) in C:/git/RIHA.git/RIA_RIHA_Approver/src/main/resources/static/js/Approver.js (line 42)
+C:/git/RIHA.git/RIA_RIHA_Approver/src/main/resources/static/js/Approver.js:42:45
+forEach@[native code]
+_addApprovalsData@C:/git/RIHA.git/RIA_RIHA_Approver/src/main/resources/static/js/Approver.js:38:17
+C:/git/RIHA.git/RIA_RIHA_Approver/src/test/js/Approver.test.js:73:39
+executeFiltered@C:/git/RIHA.git/RIA_RIHA_Approver/node_modules/karma-jasmine/lib/boot.js:126:18
+C:/git/RIHA.git/RIA_RIHA_Approver/node_modules/karma-jasmine/lib/adapter.js:171:31
+loaded@http://localhost:8945/karma.js:182:17
+global code@http://localhost:8945/context.html:67:28
+</failure>
+    </testcase>
+    <testcase name="to infosystem approved before latest modification" time="0.001" classname="PhantomJS 2.1.1 (Windows 8 0.0.0).Approver adds approval">
+      <failure type="">TypeError: undefined is not an object (evaluating &apos;indexedRows[approval.uri].meta&apos;) in C:/git/RIHA.git/RIA_RIHA_Approver/src/main/resources/static/js/Approver.js (line 42)
+C:/git/RIHA.git/RIA_RIHA_Approver/src/main/resources/static/js/Approver.js:42:45
+forEach@[native code]
+_addApprovalsData@C:/git/RIHA.git/RIA_RIHA_Approver/src/main/resources/static/js/Approver.js:38:17
+C:/git/RIHA.git/RIA_RIHA_Approver/src/test/js/Approver.test.js:83:39
+executeFiltered@C:/git/RIHA.git/RIA_RIHA_Approver/node_modules/karma-jasmine/lib/boot.js:126:18
+C:/git/RIHA.git/RIA_RIHA_Approver/node_modules/karma-jasmine/lib/adapter.js:171:31
+loaded@http://localhost:8945/karma.js:182:17
+global code@http://localhost:8945/context.html:67:28
+</failure>
+    </testcase>
+    <testcase name="changes info system status to Approved and sets approval timestamp" time="0.003" classname="PhantomJS 2.1.1 (Windows 8 0.0.0).Approver Approve button">
+      <failure type="">TypeError: undefined is not an object (evaluating &apos;indexedRows[infosystemRow.data(&apos;id&apos;)].meta&apos;) in C:/git/RIHA.git/RIA_RIHA_Approver/src/main/resources/static/js/Approver.js (line 58)
+C:/git/RIHA.git/RIA_RIHA_Approver/src/main/resources/static/js/Approver.js:58:57
+i@C:/git/RIHA.git/RIA_RIHA_Approver/src/main/resources/static/js/vendor/jquery-3.1.1.min.js:2:28265
+add@C:/git/RIHA.git/RIA_RIHA_Approver/src/main/resources/static/js/vendor/jquery-3.1.1.min.js:2:56389
+approveInfosystem@C:/git/RIHA.git/RIA_RIHA_Approver/src/main/resources/static/js/Approver.js:55:12
+C:/git/RIHA.git/RIA_RIHA_Approver/src/test/js/Approver.test.js:104:39
+executeFiltered@C:/git/RIHA.git/RIA_RIHA_Approver/node_modules/karma-jasmine/lib/boot.js:126:18
+C:/git/RIHA.git/RIA_RIHA_Approver/node_modules/karma-jasmine/lib/adapter.js:171:31
+loaded@http://localhost:8945/karma.js:182:17
+global code@http://localhost:8945/context.html:67:28
+</failure>
+    </testcase>
+    <system-out><![CDATA[
+]]></system-out>
+    <system-err/>
+  </testsuite>
+</testsuites>

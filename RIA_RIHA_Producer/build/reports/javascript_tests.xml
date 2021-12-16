@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<testsuites>
+  <testsuite name="PhantomJS 2.1.1 (Windows 8 0.0.0)" package="" timestamp="2017-03-08T10:57:06" id="0" hostname="fmNB2113" tests="4" errors="0" failures="0" time="0.034">
+    <properties>
+      <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"/>
+    </properties>
+    <testcase name="fills table with info system data" time="0.019" classname="PhantomJS 2.1.1 (Windows 8 0.0.0).Producer"/>
+    <testcase name="Delete button click deletes infosystem" time="0.008" classname="PhantomJS 2.1.1 (Windows 8 0.0.0).Producer"/>
+    <testcase name="Delete button click does not delete infosystem if not confirmed" time="0.004" classname="PhantomJS 2.1.1 (Windows 8 0.0.0).Producer"/>
+    <testcase name="Edit button click opens infosystem edit form" time="0.003" classname="PhantomJS 2.1.1 (Windows 8 0.0.0).Producer"/>
+    <system-out><![CDATA[
+]]></system-out>
+    <system-err/>
+  </testsuite>
+</testsuites>
